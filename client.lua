@@ -1,12 +1,3 @@
-	ESX = nil
-    
-	Citizen.CreateThread(function()
-		while not ESX do
-			TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
-			Wait(100)
-	end
-end)
-
 local pompModellen = {
 	[`prop_gas_pump_1b`] = true,
 	[`prop_gas_pump_1c`] = true,
